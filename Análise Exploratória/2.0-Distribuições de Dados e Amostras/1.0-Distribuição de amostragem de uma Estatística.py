@@ -53,7 +53,7 @@ loans_income = pd.read_csv(LOANS_INCOME_CSV).squeeze('columns')
 
 ## Bootstrap
 
-results = []
+results = [] 
 for nrepeat in range(1000):
     sample = resample(loans_income)
     results.append(sample.median())
