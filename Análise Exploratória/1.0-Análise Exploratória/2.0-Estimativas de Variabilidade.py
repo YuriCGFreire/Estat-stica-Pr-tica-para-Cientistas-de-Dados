@@ -45,7 +45,7 @@ print("Desvio padrao da populacao do Brasil ao longo dos anos: ", brazil_data['P
 # Isso é chaamado de desvio absoluto médio
 
 # Variância
-# A soma dos quadrados do desvio médio dividido pelo numero de valores dados (Observação existe a variancia populacional em que a soma dos quadrados do desvio médio é dividido por N sendo n a quantidade de valores e existe a variancia populacional que é dividido por n - 1). Peguemos os dados anteriores
+# A soma dos quadrados do desvio médio dividido pelo numero de valores dados (Observação existe a variancia populacional em que a soma dos quadrados do desvio médio é dividido por N sendo N a quantidade de valores e existe a variancia populacional que é dividido por n - 1). Peguemos os dados anteriores
 # Desvio médio: [1 - 3 = -2, 4 - 3 = 1, 4 - 3 = 1] = [-2, 1, 1]
 # Variância populacional = [-2**2 + 1**2 + 1**2] = 6 / 3 = 2
 # Variância amostral = [-2**2 + 1**2 + 1**2] = 6 / 2 = 3
